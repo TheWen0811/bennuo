@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,                        
+  "navigationBarBackgroundColor": "#7885e8",           
+  "navigationBarTitleText": "今日打卡",                       
+  "navigationBarTextStyle": "white",                 
+  "backgroundColor": "#7885e8"                                                    
+}

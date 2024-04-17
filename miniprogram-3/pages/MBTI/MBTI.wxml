@@ -1,0 +1,2 @@
+<!--pages/MBTI/MBTI.wxml-->
+<button type="primary" bindtap='goMBTI'>MBTI测试</button>

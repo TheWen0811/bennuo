@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/MBTI/MBTI",
+    "pages/index/index",
+    "pages/statistics/statistics"
+  ],
+  "window": {
+  "enablePullDownRefresh": true,                        
+  "navigationBarBackgroundColor": "#FF9936",           
+  "navigationBarTitleText": "打卡",                       
+  "navigationBarTextStyle": "white",                 
+  "backgroundColor": "#FF9936" 
+  },
+  "tabBar": {
+    "selectedColor": "#FC0437",
+    "list":[
+      {"pagePath":"pages/home/home",
+        "text":"首页"
+      },
+      {"pagePath":"pages/MBTI/MBTI",
+        "text":"MBTI测试"
+      },
+      {"pagePath":"pages/index/index",
+        "text":"计时",
+        "iconPath": "./images/clock3.png",
+        "selectedIconPath": "./images/clock.png"
+      },
+      {"pagePath":"pages/statistics/statistics",
+        "text":"统计",
+        "iconPath": "./images/clock4.png",
+        "selectedIconPath": "./images/clock2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
